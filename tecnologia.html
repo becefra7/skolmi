@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Cruza genética de especies</title>
+
+        <style>
+
+           *{
+            margin: 0px;
+            padding: 0px;
+           }
+             body{
+                background-color: lightblue;
+                font-family:Arial, Helvetica, sans-serif ;
+            }
+
+            #container{
+               /*width: 70%;*/
+               width: 1100px;
+               margin: 0px auto;
+               border: 1px solid black;
+            }
+        
+            .article{
+
+            }
+
+            header{
+                background-color: pink;
+                height: 100px;
+                width: 100%;
+                margin: 0px;
+                text-align: center;
+                line-height: 100px;
+                color:white;
+                border-bottom: 3px dashed black;
+             
+            }
+
+
+            nav{
+                background: lightblue;
+                height: 50px;
+                border-bottom: 1px solid black;
+            }
+
+            nav ul li{
+                float: left;
+                list-style: none;
+                margin: 10px;
+                line-height: 30px;
+            }
+
+            .clearfix{
+                clear: both;
+            }
+
+            #content{
+                float: left;
+                width: calc(80% - 80px);
+                min-height: 500px;
+                background: green;
+                padding: 40px;
+            }
+
+            .article{
+                color: white;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid white;
+            }
+
+            .article:first-child{
+                padding-top: 10px;
+                border-top: 1px solid white;
+            }
+
+            .article h2{
+                font-size: 25px;
+            }
+            
+
+            aside{
+                float: left;
+                width: calc(20% - 20px);
+                background: orange;
+                min-height: 500px;
+                padding: 10px;
+            }
+
+            footer{
+                background: black;
+                color: white;
+                text-align: center;
+                height: 50px;
+                line-height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="container">
+            
+
+            <header>
+                <h1>Cruza genética de especies</h1>
+            </header>
+
+            <nav>
+          <ul>
+            <li>
+                <a href="index.html">
+                    HOME
+                </a>
+            </li>
+           
+            <li>
+                <a href="https://www.instagram.com/_franbelita/">
+                    Contacto
+                </a>
+            </li>
+          </ul>
+
+             
+            </nav>
+
+            <div class="clearfix"></div>
+
+            <section id="content">
+
+                <article class="article">
+                    <h2>   ¿Que es la cruza genética de especies?</h2>
+                    <p> La cruza genética de especies es un estudio futurista que implica juntar el ADN de variados tipos de reptiles, en su preferencia los lagartos, con el de los seres humanos. Este invento le brinda esperanzas a las personas para poder tener la capacidad de recuperar extremidades previamente perdidas, curar enfermedades degenerativas y sobrevivir ante enfermedades mortales.</p>
+                </article>
+
+                <article class="article">
+                    <h2>   ¿Que animales son requeridos en las pruebas?</h2>
+                    <p> Los lagartos y otros cierto tipos de reptiles en especifico son los animales fundamentales para esta investigación.</p>
+                </article>
+               
+                <article class="article">
+                    <h2>   ¿Que tan popular es este tema?</h2>
+                    <p> Es un estudio nuevo, pero estamos 100% seguros de lo que hacemos y estamos usando nuestros propios recursos para seguir adelante con esta investigación. Por lo cual se esta trabajando dia tras dia en la difusion del proyecto para asi poder encontrar empresarios que esten dispuestos a colaborar de una mejor manera a nivel economico con esta causa.</p>
+                </article>
+               
+                <article class="article">
+                    <h2>   ¿Cuando inician las pruebas en humanos?</h2>
+                    <p> Aun no hay una fecha definida y pensamos que seria precipitado el para poder iniciar las pruebas en humanos en estos instantes. Por el momento nos encontramos trabajando con ratones, monos y conejos, nos mantenemos al margen de los resultados para poder seguir avanzando con con este proyecto para despues dar el gran paso a las pruebas en humanos que esten dispuestos a querer tener lo que ellos quieren.</p>
+                </article>
+
+            </section>
+
+            <aside>
+                <h2> Ponga sus dudas aquí</h2>
+                <form>
+                    <input type="text">
+                    <input type="submit" value="Insertar"/>
+                </form>
+
+            </aside>
+
+            <div class="clearfix"></div>
+
+            <footer>
+                Isabella Cerro Franco Blog
+            </footer>
+        </div>
+    </body>
+</html>
